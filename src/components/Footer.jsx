@@ -1,4 +1,8 @@
 import React from "react";
+import insta from "../assets/Insta.svg";
+import fb from "../assets/Fb.svg";
+import be from "../assets/Be.svg";
+import ball from "../assets/Ball.svg";
 
 const Footer = () => {
     return (
@@ -9,9 +13,8 @@ const Footer = () => {
                         <p className="uppercase leading-loose tracking-widest mb-6">
                             Hire Us
                         </p>
-                        <h2 className="text-transparent bg-clip-text bg-gradient-to-br from-cyan-400 to-lime-400 text-[46px] font-semibold uppercase leading-[64px]
-tracking-wide">
-                            Work with Ethical DEn
+                        <h2 className="text-transparent bg-clip-text bg-gradient-to-br from-cyan-400 to-lime-400 text-[46px] font-semibold uppercase leading-[64px] tracking-wide">
+                            Work With Ethical Den
                         </h2>
                     </div>
                     <div className="mt-16">
@@ -79,10 +82,10 @@ tracking-wide">
                             Follow
                         </h3>
                         <div className="flex items-center justify-start gap-x-8">
-                            <img src="/src/assets/Insta.svg" alt="instagram" srcset="" />
-                            <img src="/src/assets/Fb.svg" alt="facebook" srcset="" />
-                            <img src="/src/assets/Be.svg" alt="be" srcset="" />
-                            <img src="/src/assets/Ball.svg" alt="be" srcset="" />
+                            <img src={insta} alt="instagram" srcset="" />
+                            <img src={fb} alt="facebook" srcset="" />
+                            <img src={be} alt="be" srcset="" />
+                            <img src={ball} alt="be" srcset="" />
                         </div>
                     </div>
                     <div className="lg:w-fit mt-8">

@@ -1,4 +1,8 @@
 import React from 'react';
+import e_laj from "../assets/work/E_laj.svg";
+import Dream_Health from "../assets/work/Dream_Health.svg";
+import Roaderr from "../assets/work/Roaderr.svg";
+import Wonderlite from "../assets/work/Wonderlite.svg";
 import { HiMiniChevronRight } from "react-icons/hi2";
 
 const Work = () => {
@@ -8,14 +12,14 @@ const Work = () => {
             <div className='flex gap-x-40 justify-between'>
                 <div className='flex flex-col gap-40'>
                     <div className='relative'>
-                        <img src="/src/assets/work/E-laj.svg" alt="E-laj" />
+                        <img src={e_laj} alt="E-laj" />
                         <div className='absolute top-8 left-8 text-white'>
                             <h6 className='text-[28px] font-semibold'>E-laj</h6>
                             <p>Branding , App Design, UI UX</p>
                         </div>
                     </div>
                     <div className='relative'>
-                        <img src="/src/assets/work/Dream Health.svg" alt="Dream Health" />
+                        <img src={Dream_Health} alt="Dream Health" />
                         <div className='absolute top-8 left-8 text-white'>
                             <h6 className='text-[28px] font-semibold'>Dream Health</h6>
                             <p>Branding , Web Design, UI UX</p>
@@ -24,14 +28,14 @@ const Work = () => {
                 </div>
                 <div className='flex flex-col gap-40 mt-20'>
                     <div className='relative'>
-                        <img src="/src/assets/work/Roaderr.svg" alt="Roader" />
+                        <img src={Roaderr} alt="Roader" />
                         <div className='absolute top-8 left-8 text-white'>
                             <h6 className='text-[28px] font-semibold'>Roaderr</h6>
                             <p>Branding , Web Design</p>
                         </div>
                     </div>
                     <div className='relative'>
-                        <img src="/src/assets/work/Wonderlite.svg" alt="Wonderlite" />
+                        <img src={Wonderlite} alt="Wonderlite" />
                         <div className='absolute top-8 left-8 text-white'>
                             <h6 className='text-[28px] font-semibold'>Wonderlite</h6>
                             <p>Branding , Web Design, Social Media Marketing</p>

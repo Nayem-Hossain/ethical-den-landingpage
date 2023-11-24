@@ -2,14 +2,14 @@
 import { MagnifyingGlass } from "phosphor-react";
 import { Navbar, Button } from "keep-react";
 import { Link } from "react-router-dom";
-
+import brand from "../assets/manu.svg"
 export const Navigationbar = () => {
     return (
         <Navbar fluid={true}>
             <Navbar.Container className="mx-[125px] flex items-center justify-between pt-8">
                 <Navbar.Brand>
                     <img
-                        src="/src/assets/manu.svg"
+                        src={brand}
                         alt="manu"
                         width="61px"
                         height="56px"

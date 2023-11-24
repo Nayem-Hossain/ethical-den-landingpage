@@ -1,7 +1,9 @@
 import React from "react";
 import { Navigationbar } from "./NavigationBar";
 import { Navbar, Button } from "keep-react";
-
+import insta from "../assets/Insta.svg";
+import fb from "../assets/Fb.svg";
+import be from "../assets/Be.svg";
 const Hero = () => {
     return (
         <div className="hero bg-[url('/src/assets/hero.svg')] bg-cover bg-no-repeat flex flex-col h-screen">
@@ -21,9 +23,9 @@ const Hero = () => {
             </div>
 
             <div className="mx-[129px] flex gap-x-8 my-auto">
-                <img src="/src/assets/Insta.svg" alt="instagram" srcset="" />
-                <img src="/src/assets/Fb.svg" alt="facebook" srcset="" />
-                <img src="/src/assets/Be.svg" alt="be" srcset="" />
+                <img src={insta} alt="instagram" srcset="" />
+                <img src={fb} alt="facebook" srcset="" />
+                <img src={be} alt="be" srcset="" />
             </div>
 
         </div>
